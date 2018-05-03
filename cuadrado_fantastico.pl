@@ -9,7 +9,7 @@ ultimoElemento([_|Xs], Y):-ultimoElemento(Xs, Y).
 suma(X,0,X).
 suma(A,s(B),s(Y)):-suma(A,B,Y).
 
-%Made in nack
+%Triplica un natural
 triplicar(0,0).
 triplicar(s(X),s(s(s(Y)))):-triplicar(X,Y).
 
